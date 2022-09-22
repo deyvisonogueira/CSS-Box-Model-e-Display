@@ -49,3 +49,11 @@ section a {
   border-radius: 4px;
   font-weight: bold;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-content: center;
+  height: auto;
+}
